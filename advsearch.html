@@ -8,12 +8,52 @@
         <div>
             <ul class="nav-btn">
                 <li><a href="search.html">Google Search</a></li>
-                 
             </ul>
-         </div>
+        </div>
+        <div class="head">
+            <p>Advanced Search</p>
+        </div>
+        <div class="separation"></div>
+        
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="p1">
+                <p>Find pages with...</p>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p class="p-advanced">all these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_q" class="box">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p class="p-advanced">this exact word or phrase:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_epq" class="box">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p class="p-advanced">any of these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_oq" class="box">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p class="p-advanced">none of these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_eq" class="box">
+                </div>
+            </div>
+            <div class="bluebtn">
+                <input type="submit" value="Advanced search" class="btncont">
+            </div>
         </form>
     </body>
 </html>
